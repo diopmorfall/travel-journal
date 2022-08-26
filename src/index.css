@@ -9,6 +9,7 @@ body{
     display: flex;
     justify-content: center;
     align-items: center;
+    font-family: 'Inter', sans-serif;
 }
 
 .topbar{
@@ -24,4 +25,72 @@ body{
 
 .topbar img{
     height: 24px;
+}
+
+.journeys{
+    width: 470px;
+    margin: auto;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.journey{
+    width: 100%;
+    height: 168px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    margin-top: 36px;
+    border: 2px solid red;
+}
+
+.journey-pic{
+    width: 125px;
+}
+
+.journey-details{
+    display: flex;
+    flex-direction: column;
+    padding: 15px;
+}
+
+.journey-details h1, .journey-details h5{
+    margin-top: 7px;
+}
+
+.journey-details p{
+    margin-top: 9px;
+}
+
+.journey-location{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+}
+
+.journey-location span, a{
+    font-size: 10.24px;
+}
+
+.journey-location span{
+    letter-spacing: 2px;
+}
+
+.journey-location a{
+    margin-left: 12px;
+    color: #918E9B;
+}
+
+.journey-details h1{
+    font-size: 25px;
+    font-weight: bold;
+}
+
+.journey-details h5{
+    font-weight: bold;
+}
+
+.journey-details h5, .journey-description{
+    font-size: 10.24px;
 }

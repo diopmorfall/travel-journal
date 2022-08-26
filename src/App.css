@@ -2,5 +2,5 @@
     width: 550px;
     display: flex;
     flex-direction: column;
-    border: 2px solid blue;
+    align-items: center;
 }
