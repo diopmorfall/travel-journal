@@ -1,6 +1,7 @@
 import './App.css';
 import Topbar from './components/Topbar'
 import Journey from './components/Journey'
+import Footer from './components/Footer';
 import trips from './trips'
 
 function App() {
@@ -22,6 +23,7 @@ function App() {
             <div className='journeys'>
                 {journeys}
             </div>
+            <Footer />
         </div>
     );
 }

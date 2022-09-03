@@ -28,8 +28,8 @@ export default [
         coordinates: "https://www.google.it/maps/place/70044+Polignano+a+Mare+BA/@40.9962086,17.2077652,15z/data=!3m1!4b1!4m5!3m4!1s0x1347cbeb9e80f67b:0x9bbe6b6e25a97601!8m2!3d40.9948946!4d17.22261",
         startDate: "4th June 2022",
         endDate: "4th June 2022",
-        description: `Polignano a Mare is a city in the metropolitan area of Bari, and has many beautiful beaches, cliffs, views and caves.
-            There's also a fish based fast food named "Pescaria", which is a great place for a lunch`,
+        description: `Polignano a Mare is in the metropolitan area of Bari, and has many beautiful beaches, cliffs, views and caves.
+            There's also "Pescaria", a fish based fast food that is a great place for a lunch`,
         imgUrl: "./images/polignano-a-mare.jpg"
     }
 ]
