@@ -25,6 +25,7 @@ body{
 
 .topbar img{
     height: 24px;
+    filter: brightness(0) saturate(100%) invert(100%) sepia(100%) saturate(0%) hue-rotate(185deg) brightness(106%) contrast(106%);
 }
 
 .journeys{
@@ -69,6 +70,13 @@ body{
     align-items: center;
 }
 
+.journey-location img{
+    width: 7px;
+    height: 9px;
+    margin-right: 4px;
+    filter: brightness(0) saturate(100%) invert(72%) sepia(32%) saturate(7009%) hue-rotate(317deg) brightness(88%) contrast(120%);
+}
+
 .journey-location span, a{
     font-size: 10.24px;
 }
@@ -93,4 +101,8 @@ body{
 
 .journey-details h5, .journey-description{
     font-size: 10.24px;
+}
+
+.journey-description{
+    line-height: 150%;
 }
