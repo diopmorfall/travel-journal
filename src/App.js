@@ -12,6 +12,7 @@ function App() {
             startDate={trip.startDate}
             endDate={trip.endDate}
             description={trip.description}
+            imgUrl={trip.imgUrl}
         />
     )
 

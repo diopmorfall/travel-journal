@@ -1,11 +1,11 @@
 import React from 'react';
 import ReactDOM from 'react-dom/client';
-import locationIcon from '../images/location.svg'
+import locationIcon from '../icons/location.svg'
 
 export default function Journey(props){
     return(
         <section className='journey'>
-            <img className='journey-pic' src='' alt='Journey picture' />
+            <img className='journey-pic' src={props.imgUrl} alt='Journey picture' />
             <div className='journey-details'>
                 <div className='journey-location'>
                     <img src={locationIcon} alt='Location icon' />
