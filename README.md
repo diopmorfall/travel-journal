@@ -4,6 +4,7 @@
 
 - [Overview](#overview)
   - [Guidelines](#guidelines)
+  - [Links](#links)
 - [My process](#my-process)
   - [Built with](#built-with)
   - [What I learned](#what-i-learned)
@@ -19,6 +20,11 @@
 The project must satisfy the following requirements:
 
 - It must render the data from an array of objects about my trips
+
+### Links
+
+- Live Site URL: [Netlify](https://s2i-react-travel-journal.netlify.app/)
+- Source code: [Github](https://github.com/diopmorfall/travel-journal/)
 
 ## My process
 
